@@ -1,0 +1,188 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* HRPayrollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D60589A0D05DD56006BFB54 /* HRPayrollApp.swift */; };
+		1D60589D0D05DD56006BFB54 /* HRModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D60589C0D05DD56006BFB54 /* HRModels.swift */; };
+		1D60589F0D05DD56006BFB54 /* HRPayrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D60589E0D05DD56006BFB54 /* HRPayrollViewModel.swift */; };
+		1D6058A10D05DD56006BFB54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6058A00D05DD56006BFB54 /* ContentView.swift */; };
+		1D6058A30D05DD56006BFB54 /* EmployeesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6058A20D05DD56006BFB54 /* EmployeesView.swift */; };
+		1D6058A50D05DD56006BFB54 /* PositionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6058A40D05DD56006BFB54 /* PositionsView.swift */; };
+		1D6058A70D05DD56006BFB54 /* HoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6058A60D05DD56006BFB54 /* HoursView.swift */; };
+		1D6058A90D05DD56006BFB54 /* PayrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6058A80D05DD56006BFB54 /* PayrollView.swift */; };
+		1D6058AB0D05DD56006BFB54 /* DocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6058AA0D05DD56006BFB54 /* DocumentsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D6058960D05DD56006BFB54 /* HRPayrollApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRPayrollApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D60589A0D05DD56006BFB54 /* HRPayrollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRPayrollApp.swift; sourceTree = "<group>"; };
+		1D60589C0D05DD56006BFB54 /* HRModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/HRModels.swift"; sourceTree = "<group>"; };
+		1D60589E0D05DD56006BFB54 /* HRPayrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModels/HRPayrollViewModel.swift"; sourceTree = "<group>"; };
+		1D6058A00D05DD56006BFB54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/ContentView.swift"; sourceTree = "<group>"; };
+		1D6058A20D05DD56006BFB54 /* EmployeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/EmployeesView.swift"; sourceTree = "<group>"; };
+		1D6058A40D05DD56006BFB54 /* PositionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/PositionsView.swift"; sourceTree = "<group>"; };
+		1D6058A60D05DD56006BFB54 /* HoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/HoursView.swift"; sourceTree = "<group>"; };
+		1D6058A80D05DD56006BFB54 /* PayrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/PayrollView.swift"; sourceTree = "<group>"; };
+		1D6058AA0D05DD56006BFB54 /* DocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/DocumentsView.swift"; sourceTree = "<group>"; };
+		1D6058AC0D05DD56006BFB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		29B97314FDCFA39411CA2CEA /* MainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				1D60589A0D05DD56006BFB54 /* HRPayrollApp.swift */,
+				1D60589C0D05DD56006BFB54 /* HRModels.swift */,
+				1D60589E0D05DD56006BFB54 /* HRPayrollViewModel.swift */,
+				1D6058A00D05DD56006BFB54 /* ContentView.swift */,
+				1D6058A20D05DD56006BFB54 /* EmployeesView.swift */,
+				1D6058A40D05DD56006BFB54 /* PositionsView.swift */,
+				1D6058A60D05DD56006BFB54 /* HoursView.swift */,
+				1D6058A80D05DD56006BFB54 /* PayrollView.swift */,
+				1D6058AA0D05DD56006BFB54 /* DocumentsView.swift */,
+				1D6058AC0D05DD56006BFB54 /* Info.plist */,
+				1D6058960D05DD56006BFB54 /* HRPayrollApp.app */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058950D05DD56006BFB54 /* HRPayrollApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058B00D05DD56006BFB54 /* Build configuration list for PBXNativeTarget "HRPayrollApp" */;
+			buildPhases = (
+				1D6058920D05DD56006BFB54 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRPayrollApp;
+			productName = HRPayrollApp;
+			productReference = 1D6058960D05DD56006BFB54 /* HRPayrollApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = C01FCF4E08A9545400542C1A /* Build configuration list for PBXProject "HRPayrollApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MainGroup */;
+			productRefGroup = 29B97314FDCFA39411CA2CEA /* MainGroup */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058950D05DD56006BFB54 /* HRPayrollApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D6058920D05DD56006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* HRPayrollApp.swift in Sources */,
+				1D60589D0D05DD56006BFB54 /* HRModels.swift in Sources */,
+				1D60589F0D05DD56006BFB54 /* HRPayrollViewModel.swift in Sources */,
+				1D6058A10D05DD56006BFB54 /* ContentView.swift in Sources */,
+				1D6058A30D05DD56006BFB54 /* EmployeesView.swift in Sources */,
+				1D6058A50D05DD56006BFB54 /* PositionsView.swift in Sources */,
+				1D6058A70D05DD56006BFB54 /* HoursView.swift in Sources */,
+				1D6058A90D05DD56006BFB54 /* PayrollView.swift in Sources */,
+				1D6058AB0D05DD56006BFB54 /* DocumentsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4F08A9545400542C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A9545400542C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1D6058B10D05DD56006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HRPayrollApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrpayroll.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058B20D05DD56006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HRPayrollApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrpayroll.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4E08A9545400542C1A /* Build configuration list for PBXProject "HRPayrollApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A9545400542C1A /* Debug */,
+				C01FCF5008A9545400542C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6058B00D05DD56006BFB54 /* Build configuration list for PBXNativeTarget "HRPayrollApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058B10D05DD56006BFB54 /* Debug */,
+				1D6058B20D05DD56006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
