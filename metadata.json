@@ -1,0 +1,6 @@
+{
+  "name": "HR & Payroll Management Suite",
+  "description": "Comprehensive HR Payroll software with employee tracking, position management, document generation, hour logging, tax withholding, payslips, and native iOS & Android projects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
